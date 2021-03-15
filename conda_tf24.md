@@ -44,3 +44,6 @@ jupyter kernelspec uninstall unwanted-kernel
 ```bash
 file $(which python)
 ```
+
+## References
+* https://blog.tensorflow.org/2020/11/accelerating-tensorflow-performance-on-mac.html
