@@ -1,4 +1,6 @@
-# Normal
+# Install TensorFlow 2.4 in Conda env
+
+## Normal
 ```bash
 conda create --name tf --yes python=3.8
 conda activate tf
@@ -8,7 +10,7 @@ python -m ipykernel install --user --name tf --display-name "Python 3.8 (tf)"
 jupyter-lab
 ```
 
-# MacOS (M1)
+## MacOS (M1)
 ```bash
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh
 sh Miniforge3-MacOSX-arm64.sh
@@ -29,7 +31,7 @@ python -m ipykernel install --user --name tf_macos_m1 --display-name "Python 3.8
 jupyter-lab
 ```
 
-# Remove Jupyter Kernel
+## Remove Jupyter Kernel
 ```bash
 jupyter kernelspec uninstall unwanted-kernel
 ```
