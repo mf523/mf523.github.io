@@ -47,3 +47,4 @@ file $(which python)
 
 ## References
 * https://blog.tensorflow.org/2020/11/accelerating-tensorflow-performance-on-mac.html
+* https://towardsdatascience.com/are-the-new-m1-macbooks-any-good-for-deep-learning-lets-find-out-b475ad70dec2
