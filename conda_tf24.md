@@ -27,7 +27,7 @@ https://github.com/apple/tensorflow_macos
 
 # scipy, numpy, https://github.com/numpy/numpy/issues/17807
 /your/homebrew/path/bin/brew install openblas
-OPENBLAS="$(/your/homebrew/path/bin/brew --prefix openblas)" pip3 install -U numpy scipy
+OPENBLAS="$(/your/homebrew/path/bin/brew --prefix openblas)" pip3 install --user -U numpy scipy
 
 pip install jupyterlab
 python -m ipykernel install --user --name tf_macos_m1 --display-name "Python 3.8 (tf_macos_m1)"
