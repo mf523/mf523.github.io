@@ -39,3 +39,8 @@ jupyter-lab
 ```bash
 jupyter kernelspec uninstall unwanted-kernel
 ```
+
+## Degug
+```bash
+file $(which python)
+```
