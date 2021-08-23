@@ -6,4 +6,5 @@
 
 ## Blogs
 * [轻松构建 PyTorch 生成对抗网络 (Make a Generative Advaseral Network with PyTorch)](https://aws.amazon.com/cn/blogs/china/easily-build-pytorch-generative-adversarial-networks-gan/)
+* [AWS 数据纵深防御篇 – 如何配置 Aurora 整合 KMS 的静态加密 (Aurora static encryption with KMS)](https://aws.amazon.com/cn/blogs/china/defense-depth-aws-data-how-to-configure-aurora-integrate-kms-static-encryptio/)
 
