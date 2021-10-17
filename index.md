@@ -15,3 +15,4 @@
 * https://docs.microsoft.com/en-us/windows/wsl/install-on-server
 * https://computingforgeeks.com/run-linux-on-windows-server/
 * https://community.chocolatey.org/packages/wsl-ubuntu-2004
+* https://docs.docker.com/desktop/windows/wsl/
