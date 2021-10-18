@@ -16,3 +16,4 @@
 * https://computingforgeeks.com/run-linux-on-windows-server/
 * https://community.chocolatey.org/packages/wsl-ubuntu-2004
 * https://docs.docker.com/desktop/windows/wsl/
+* https://www.public-health.uiowa.edu/it/support/kb48568/
