@@ -10,6 +10,30 @@
 * [轻松构建 PyTorch 生成对抗网络 (Make a Generative Advaseral Network with PyTorch)](https://aws.amazon.com/cn/blogs/china/easily-build-pytorch-generative-adversarial-networks-gan/)
 * [配置Aurora数据库，整合KMS的静态加密 (Aurora static encryption with KMS)](https://aws.amazon.com/cn/blogs/china/defense-depth-aws-data-how-to-configure-aurora-integrate-kms-static-encryptio/)
 
+## How to upload contents in big zip file to AWS S3 bucket without uncompressing
+```python
+#!/bin/env python
+
+import sys
+from zipfile import ZipFile
+import boto3
+
+def main(zipfile_path, bucket, prefix):
+    s3 = boto3.resource('s3')
+
+    with ZipFile(zipfile_path, 'r') as zip:
+        # printing all the contents of the zip file
+        for f in zip.namelist():
+            if not zip.getinfo(f).is_dir():
+                obj = s3.Object(bucket, f"{prefix}/{f}")
+                obj.put(Body=zip.read(f))
+                print(f"uploaded s3://{bucket}/{prefix}/{f}")
+        print('Done!')
+
+if __name__ == "__main__":
+    main(zipfile_path=sys.argv[1], bucket=sys.argv[2], prefix=sys.argv[3])
+```
+
 ## Install WSL on Windows Server 2019
 * https://docs.microsoft.com/en-us/windows/wsl/install
 * https://docs.microsoft.com/en-us/windows/wsl/install-on-server
