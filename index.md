@@ -11,6 +11,9 @@
 * [Build GAN with PyTorch and Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/build-gan-with-pytorch-and-amazon-sagemaker/)
 * [配置Aurora数据库，整合KMS的静态加密 (Aurora static encryption with KMS)](https://aws.amazon.com/cn/blogs/china/defense-depth-aws-data-how-to-configure-aurora-integrate-kms-static-encryptio/)
 
+## Paper summary
+* [A summary on paper arXiv:1607.05368](a%20summary%20on%20paper%201607.05368%20v2.pdf)
+
 ## How to upload contents in big zip file to AWS S3 bucket without uncompressing
 ```python
 #!/bin/env python
